@@ -8,10 +8,12 @@ import (
 
 type CreateCommentInput struct {
 	Text  string `json:"comment" binding:"required"`
+	PostId uint `json:"post_id" binding:"required"`
 }
 
 type UpdateCommentInput struct {
 	Text  string `json:"comment"`
+	PostId uint `json:"post_id"`
 }
 
 // GET /comments
