@@ -9,11 +9,11 @@ import (
 var DB *gorm.DB
 
 const (
-	host     = "51.159.112.97"
-	port     = 17794
-	user     = "quentin"
-	password = "@Quentin23"
-	dbname   = "apicomments"
+	host     = ""
+	port     = 
+	user     = ""
+	password = ""
+	dbname   = ""
 )
 
 func ConnectDatabase() {
